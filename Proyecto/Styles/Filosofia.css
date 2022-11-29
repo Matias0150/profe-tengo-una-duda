@@ -1,0 +1,243 @@
+*{
+margin: 0;
+font-family: Comfortaa;
+}
+html{
+scroll-behavior: smooth;
+}
+
+@font-face {
+font-family: Comfortaa;
+src: url(../Font/static/Comfortaa-Regular.ttf);
+}
+
+
+header{
+background-color: #7D83FF;
+display: flex;
+justify-content: space-between;
+align-items:center;
+padding: 10px;
+}
+
+.offcanvas-header{
+
+background-color: #7D83FF;
+color: #00272B;
+    
+}
+
+
+.offcanvas-body{
+background: linear-gradient(180deg, #7D83FF, #FF6B6B);
+color: #000;
+}
+
+.logo{
+height: 100px;
+}
+
+.tittle{
+color: #00272B;
+font-size: 60px;
+}
+
+main{
+background: linear-gradient(180deg, #7D83FF, #FF6B6B);
+}
+
+.parraphH{
+
+text-align: center;
+color: #00272B;
+padding: 10px;
+}
+
+.HH2{
+
+color: #FFFF;
+
+}
+
+.parent{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+overflow: hidden; 
+}
+
+.tarjeta{
+background: linear-gradient(180deg, #7D83FF,#fcbcbc);
+color: #00272B;
+border-radius: 8px;
+margin: 50px;
+text-align: center;
+height: 384px;
+box-sizing: border-box;
+padding: 2px;
+}
+
+.bc{
+background: linear-gradient(180deg, #ff8686,#ffbaba);
+    
+}
+
+.bc1{
+background: linear-gradient(180deg, #ffbaba,#ffe0e0);
+    
+}
+
+.imagenTarjeta{
+width: 63px;
+margin-top: 67px;
+}
+    
+.tituloTarjeta{
+margin: 15px;
+font-size: 25px;
+}
+    
+.parrafoTarjeta{
+text-align: justify;
+padding: 20px;
+box-sizing: border-box;
+font-size: 16px;
+}
+
+.economia{
+text-decoration: none;
+}
+
+.Mundo{
+text-decoration: none;
+}
+
+.tarjeta:hover{ 
+transition: all 1s;
+transform: translateY(-10px);  
+}
+
+.t2:hover{ 
+transition: all 1s;
+transform:scale(1.05);  
+}
+
+.contacto{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
+flex-direction: column;
+margin: 0 auto;
+width: 75%;
+height: 350px;
+overflow: hidden; 
+border-radius: 10px;
+color: #00272B;
+box-sizing: content-box;
+}
+
+.Playlist{
+text-decoration: none;
+color: #FFFF;
+}
+
+.KvH{
+display: flex;
+}
+
+.gorra{
+height: 50px;
+}
+
+
+.KH{
+font-size: 26px;
+text-align: center;
+width: 300px;
+}
+
+.gorra2{
+height: 40px;
+}
+
+.ParraphC{
+text-align: center;
+}
+
+.contactimg{
+height: 100px;
+}
+
+.antigua, .moderna,.filosofias{
+width: 85%;
+padding: 50px;
+color:#00272B;
+}
+
+.PE{
+text-align: justify;
+}
+
+
+form{
+width: 550px;
+margin-left: 22px;
+padding: 10px 20px;
+box-sizing: border-box;
+}
+            
+input, textarea{
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+}
+
+.a{
+background-color: #7D83FF;
+border: none;
+border-radius: 3px;
+resize: none;
+margin: 10px;
+}
+
+::placeholder{
+color:#00272B;
+}
+    
+.boton{
+width: 100px;
+background-color:#4ECDC4;
+color:#00272B;
+border: none;
+border-radius: 3px;
+margin-left: 12px;
+}
+
+.boton:hover{
+
+background-color: #7D83FF;
+transition: 1s;
+}
+
+
+footer{
+background-color: #FF6B6B;
+height: 100%;
+}
+
+.infoF{
+
+display: flex;
+justify-content: end;
+
+}
+
+.imgF{
+padding: 10px;
+height: 70px;
+
+}

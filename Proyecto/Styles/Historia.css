@@ -1,0 +1,247 @@
+*{
+margin: 0;
+font-family: Comfortaa;
+}
+html{
+scroll-behavior: smooth;
+}
+
+@font-face {
+font-family: Comfortaa;
+src: url(../Font/static/Comfortaa-Regular.ttf);
+}
+
+
+header{
+background-color: #FFD166;
+display: flex;
+justify-content: space-between;
+align-items:center;
+padding: 10px;
+}
+
+.offcanvas-header{
+
+background-color: #FFD166;
+color: #00272B;
+    
+}
+
+
+.offcanvas-body{
+background: linear-gradient(180deg, #FFD166, #FF6B6B);
+color: #000;
+}
+
+.logo{
+height: 100px;
+}
+
+.tittle{
+color: #00272B;
+font-size: 60px;
+}
+
+main{
+background: linear-gradient(180deg, #FFD166, #FF6B6B);
+}
+
+.parraphH{
+
+text-align: center;
+color: #00272B;
+padding: 10px;
+}
+
+.HH2{
+
+color: #FF6B6B;
+
+}
+
+.parent{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+overflow: hidden; 
+}
+
+    
+.tarjeta:hover{ 
+transition: all 1s;
+transform: translateY(-10px);  
+}
+
+.Argentina{
+
+text-decoration: none;
+
+}
+
+.Mundo{
+text-decoration: none;
+}
+        
+    
+.tarjeta{
+background: linear-gradient(180deg, #FFD166, 
+#ffbc67);
+color: #00272B;
+border-radius: 8px;
+margin: 50px;
+text-align: center;
+height: 384px;
+box-sizing: border-box;
+padding: 2px;
+}
+
+.imagenTarjeta{
+width: 63px;
+margin-top: 67px;
+}
+    
+.tituloTarjeta{
+margin: 15px;
+font-size: 25px;
+}
+    
+.parrafoTarjeta{
+text-align: justify;
+padding: 20px;
+box-sizing: border-box;
+font-size: 16px;
+}
+
+.contacto{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
+flex-direction: column;
+margin: 0 auto;
+width: 75%;
+height: 350px;
+overflow: hidden; 
+border-radius: 10px;
+color: #00272B;
+box-sizing: content-box;
+}
+     
+.contacto:hover{ 
+transition: all 1s;
+transform:scale(1.05);  
+}
+
+.tittleC{
+color:#00272B;
+padding: 20px
+}
+
+.Feinman{
+text-decoration: none;
+color: #FFFF;
+}
+
+.doña_florinda{
+display: flex;
+}
+
+.DF{
+height: 50px;
+}
+
+
+.realidad{
+text-align: center;
+width: 600px;
+}
+
+.DF2{
+height: 40px;
+}
+
+.ParraphC{
+text-align: center;
+}
+
+.contactimg{
+height: 100px;
+}
+
+.history{
+width: 75%;
+padding: 50px;
+color:#00272B;
+
+}
+
+.parent2{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+overflow: hidden; 
+}
+
+.tarjeta2{
+background: linear-gradient(180deg, #ffb168, #ff9669);
+color: white;
+border-radius: 8px;
+margin: 50px;
+text-align: center;
+height: 470px;
+box-sizing: border-box;
+padding: 2px;
+color: #00272B;
+}
+
+.t2{
+background: linear-gradient(180deg,#ffa568, #ff9669)
+}
+
+.t3{
+background: linear-gradient(180deg, #ff9669,#ff886a)
+}
+.t4{
+background: linear-gradient(180deg, #ff8b69,#ff736a)
+}
+.t5{
+background: linear-gradient(180deg, #ff726a,#FF6B6B)
+}
+
+.tarjeta2:hover{ 
+transition: all 1s;
+transform:scale(1.05);  
+}
+
+.parent3{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+overflow: hidden; 
+}
+
+footer{
+background-color: #FF6B6B;
+height: 100%;
+}
+
+.infoF{
+
+display: flex;
+justify-content: end;
+
+}
+
+.imgF{
+padding: 10px;
+height: 70px;
+
+}
+
+

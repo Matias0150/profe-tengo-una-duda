@@ -1,0 +1,213 @@
+*{
+margin: 0;
+font-family: Comfortaa;
+}
+
+@font-face {
+font-family: Comfortaa;
+src: url(../Font/static/Comfortaa-Regular.ttf);
+}
+
+header{
+background-color: #ff6b6b;
+display: flex;
+justify-content: space-between;
+align-items:center;
+padding: 10px;
+}
+
+.offcanvas-header{
+
+background-color: #FF6B6B;
+color: #00272B;
+    
+}
+
+
+.offcanvas-body{
+background: linear-gradient(180deg, #FF6B6B, #FFFF);
+color: #000;
+}
+
+.logo{
+height: 100px;
+}
+
+.tittle{
+color: #00272B;
+font-size: 60px;
+}
+
+main{
+
+background: linear-gradient(180deg, #ff6b6b, #FFFF)
+
+} 
+
+.parraphH{
+
+text-align: center;
+color: #00272B;
+padding: 10px;
+}
+
+.HH2{
+
+color: #FFFF;
+
+}
+
+.parent{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+overflow: hidden; 
+}
+
+.tarjeta{
+background: linear-gradient(180deg, #FF6B6B,#fcbcbc);
+color: #00272B;
+border-radius: 8px;
+margin: 50px;
+text-align: center;
+height: 384px;
+box-sizing: border-box;
+padding: 2px;
+}
+
+.bc{
+background: linear-gradient(180deg, #ff8686,#ffbaba);
+    
+}
+
+.bc1{
+background: linear-gradient(180deg, #ffbaba,#ffe0e0);
+    
+}
+
+.bc2{
+
+background: linear-gradient(180deg, #ffe0e0,#FFFF);
+
+}
+
+
+.imagenTarjeta{
+width: 63px;
+margin-top: 67px;
+}
+    
+.tituloTarjeta{
+margin: 15px;
+font-size: 25px;
+}
+    
+.parrafoTarjeta{
+text-align: justify;
+padding: 20px;
+box-sizing: border-box;
+font-size: 16px;
+}
+
+.tarjeta:hover{ 
+transition: all 1s;
+transform: translateY(-10px);  
+}
+
+.t2:hover{ 
+transition: all 1s;
+transform:scale(1.05);  
+}
+
+
+.economia{
+text-decoration: none;
+}
+
+.Mundo{
+text-decoration: none;
+}
+        
+
+.contacto{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
+flex-direction: column;
+margin: 0 auto;
+width: 75%;
+height: 350px;
+overflow: hidden; 
+border-radius: 10px;
+color: #00272B;
+box-sizing: content-box;
+}
+
+.tittleC{
+color:#00272B;
+padding: 20px
+}
+
+.Video_KvH{
+text-decoration: none;
+color: #FFFF;
+}
+
+.KvH{
+display: flex;
+}
+
+.gorra{
+height: 50px;
+}
+
+
+.KH{
+font-size: 26px;
+text-align: center;
+width: 300px;
+}
+
+.gorra2{
+height: 40px;
+}
+
+.ParraphC{
+text-align: center;
+}
+
+.contactimg{
+height: 100px;
+}
+
+.liberalismo, .marxismo, .Keynesianismo {
+width: 85%;
+padding: 50px;
+color:#00272B;
+}
+
+.PE{
+text-align: justify;
+}
+
+
+footer{
+background-color: #FFFF;
+height: 100%;
+}
+
+.infoF{
+
+display: flex;
+justify-content: end;
+
+}
+
+.imgF{
+padding: 10px;
+height: 70px;
+
+}

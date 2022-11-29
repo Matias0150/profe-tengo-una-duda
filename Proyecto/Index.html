@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./Styles/Style1.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Profe, tengo una duda. Oficial</title>
+	<link rel="shortcut icon" href="../Images/Logo2.png">
+
+</head>
+
+<body>
+
+
+	<header>
+
+		<button class="btn btn-warning ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+			aria-controls="offcanvas">
+			Materias que damos
+		</button>
+
+		<!-- Contenido de off canvas  -->
+		<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+			<div class="offcanvas-header">
+				<h5 class="offcanvas-title">¡Chusmea tranquilo/a!</h5>
+				<button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close">
+					</buttonc>
+			</div>
+			<div class="offcanvas-body">
+				<div class="Parraph-off-canvas">
+					¡Hola! Bienvenid@, este boton desplegará los links de cada materia que doy. ¡Buen Viaje! <3 </div>
+						<div class="dropdown mt-4">
+							<button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown"
+								id="dropdownMenu">
+								Materias
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+								<li><a href="./Pages/Historia.html" class="dropdown-item">Historia Argentina siglo XX-XI</a></li>
+								<li><a href="./Pages/Economia.html" class="dropdown-item">Economía teórica</a></li>
+								<li><a href="./Pages/Filosofia.html" class="dropdown-item">Filosofía</a></li>
+							</ul>
+						</div>
+						<img src="./Images/logo_transparent.png" alt="Logo" class="w-100 mt-4 ">
+				</div>
+			</div>
+			<!-- Contenido de off canvas, end.  -->
+
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+				crossorigin="anonymous"></script>
+
+
+
+			<h1 class="tittle" id="inicio"> Profe, tengo una duda</h1>
+
+
+			<img src="./Images/logo_transparent2.png" alt="logo" class="logo">
+
+	</header>
+
+	<main>
+
+
+		<div class="welcome">
+
+			<h2 class="bienvenida">¡¡BIENVENIDO!!</h2>
+			<h2 class="bienvenida2">Esta página es producto de un jóven que en su afán de enseñar, busca tenér la oportunidad de ser un humilde profesor particular. Mi nombre es Matias, y si tenés ganas de aprobar el examen ¿Qué esperas?. </h2>
+
+		</div>
+
+		<div class="parent">
+
+			<a href="./Pages/Historia.html" class="linka">
+
+			    <div class="tarjeta">
+					
+					<img src="./icons/Argentina_icon.png" alt="bandera Argentina" class="imagenTarjeta">
+
+					<h3 class="tituloTarjeta">Historia siglo XX-XI</h3>
+	
+					<p class="parrafoTarjeta">"Aquellos pueblos que no aprenden de su historia, están condenados a repetirla"... y los alumnos que no la sepan, condenados a llevarsela. </p>
+
+			    </div>
+		    </a>
+
+
+            <a href="./Pages/Economia.html" class="linka">
+
+			    <div class="tarjeta">
+
+				  <img src="./icons/Economia_icon.png" alt="Economia" class="imagenTarjeta">
+
+				  <h3 class="tituloTarjeta">Economía teórica</h3>
+
+				  <p class="parrafoTarjeta">"El señor Marx entró al kiosko y preguntó: '¿Cuánto cuesta esta botella de agua?', el kiosquero Menger respondió: '¿Cuánto estás dispuesto a pagarla?'".
+				   </p>
+
+			   </div>
+		    </a>
+
+             <a href="./Pages/Filosofia.html" class="linka">
+
+				   <div class="tarjeta">
+
+					  <img src="./icons/Filosofia_icon.png" alt="Filosofo" class="imagenTarjeta">
+	
+					  <h3 class="tituloTarjeta"> Filosofía</h3>
+	
+					  <p class="parrafoTarjeta">Descartes dijo "Duden de todo por cuanto sea posible" sí, de todo... menos de estudiar conmigo, eso ya no.</p>
+
+				    </div>
+
+			 </a>
+
+
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+
+
+		<div class="contacto">
+
+           <h2 class="tittleC">¿Cómo me contactas?</h2>
+
+		   <div class="contacto1">
+
+			<!-- Formulario -->
+
+			<form action="./server/correo.php" method="post">
+
+				<input type="text" name="Nombre" placeholder="Nombre" class="a">
+
+				<input type="text" name="Telefono" placeholder="Telefono" class="a">
+
+				<input type="text" name="Email" placeholder="Email" class="a">
+
+				<textarea type="text" name="Consultas" placeholder="Materia y Tema (Lo mas específico posible)" class="a"></textarea>
+
+				<input type="submit" value="Enviar" class="boton">
+
+			</form>
+
+			<!-- Formulario -->
+
+		</div> 
+
+
+		   <p class="ParraphC">Preguntá sin miedo, no muerdo. Cobro, pero no muerdo.</p>
+
+		   <img src="./icons/Perro_icon.png" alt="perrito" class="contactimg">
+
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+
+	</main>
+
+	<footer>
+
+		<div class="infoF">
+
+			<img src="./icons/Footer_img.icon.png" alt="Profesor" class="imgF">
+
+		</div>
+
+
+
+	</footer>
+
+</body>
+
+</html>

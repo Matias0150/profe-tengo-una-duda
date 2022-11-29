@@ -1,0 +1,213 @@
+
+*{
+margin: 0;
+font-family: Comfortaa;
+}
+
+@font-face {
+font-family: Comfortaa;
+src: url(../Font/static/Comfortaa-Regular.ttf);
+}
+
+header{
+background-color: #4ECDC4;
+display: flex;
+justify-content: space-between;
+align-items:center;
+padding: 10px;
+}
+
+.offcanvas-header{
+
+background-color: #4ECDC4;
+    
+}
+
+
+.offcanvas-body{
+background: linear-gradient(180deg, #4ECDC4, #7D83FF);
+}
+
+.logo{
+height: 100px;
+}
+
+.tittle{
+color: #00272B;
+font-size: 60px;
+}
+
+main{
+background: linear-gradient(180deg, #4ECDC4, #7D83FF);
+}
+
+.bienvenida{
+text-align: center;
+font-size: 40px;
+color: #7D83FF;    
+}
+
+.bienvenida2{
+text-align: center;
+font-size: 20px;
+padding: 10px;
+color: #00272B; 
+}
+
+.parent{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+overflow: hidden; 
+}
+
+.linka{
+text-decoration: none;
+color: #ffff;
+}
+
+
+        
+.tarjeta:hover{ 
+transition: all 1s;
+transform: translateY(-10px);
+}
+        
+    
+.tarjeta{
+background: linear-gradient(180deg, #4ECDC4, #7D83FF);
+color: #ffff;
+border-radius: 8px;
+margin: 50px;
+text-align: center;
+height: 384px;
+box-sizing: border-box;
+padding: 2px;
+}
+
+    
+.imagenTarjeta{
+width: 63px;
+margin-top: 67px;
+}
+    
+.tituloTarjeta{
+margin: 15px;
+font-size: 25px;
+}
+    
+.parrafoTarjeta{
+text-align: justify;
+padding: 20px;
+box-sizing: border-box;
+font-size: 16px;
+}
+
+.contacto{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
+flex-direction: column;
+margin: 0 auto;
+padding: 30px;
+width: 75%;
+height: 350px;
+/* background: linear-gradient(180deg, #6f9aed, #7D83FF); */
+border-radius: 10px;
+color: #00272B;
+/* box-shadow: 10px 7px 400px 56px rgba(78,205,196,1);
+-webkit-caja-sombra: 10px 7px 400px 56px rgba(78,205,196,1);
+-moz-box-shadow: 10px 7px 400px 56px rgba(78,205,196,1); */
+}
+
+.contacto1{
+display: flex;
+
+}
+        
+form{
+width: 550px;
+margin: auto;
+padding: 10px 20px;
+box-sizing: border-box;
+animation: none;
+}
+            
+input, textarea{
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+}
+
+.a{
+background-color: #7D83FF;
+border: none;
+border-radius: 3px;
+resize: none;
+margin: 10px;
+}
+
+input:auto-fill{
+background-color: #7D83FF;
+}
+
+::placeholder{
+color:#00272B;
+}
+    
+.boton{
+width: 100px;
+background-color:#4ECDC4;
+color:#00272B;
+border: none;
+border-radius: 3px;
+margin-left: 12px;
+}
+
+.boton:hover{
+
+background-color: #7D83FF;
+transition: 1s;
+}
+
+
+.tittleC{
+padding: 20px
+}
+
+.ParraphC{
+
+margin-top: 10px;
+
+}
+
+.contactimg{
+
+height: 100px;
+
+}
+
+
+
+footer{
+background-color: #7D83FF;
+height: 100%;
+}
+
+.infoF{
+
+display: flex;
+justify-content: end;
+
+}
+
+.imgF{
+padding: 10px;
+height: 70px;
+
+}
+
